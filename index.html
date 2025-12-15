@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Bedir | Video Editor & Content Creator</title>
+    <link rel="stylesheet" href="stiyle.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation"></div>
+
+    <!-- Floating Particles -->
+    <div class="particle" style="top: 20%; left: 10%; animation-delay: 0s;"></div>
+    <div class="particle" style="top: 60%; left: 80%; animation-delay: 2s;"></div>
+    <div class="particle" style="top: 40%; left: 30%; animation-delay: 4s;"></div>
+    <div class="particle" style="top: 70%; left: 60%; animation-delay: 6s;"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">AHMED BEDIR</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#skills">المهارات</a></li>
+            <li><a href="#portfolio">الأعمال</a></li>
+            <li><a href="#contact">تواصل معي</a></li>
+        </ul>
+        <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="film-strip"></div>
+        <div class="hero-content">
+            <h1>Ahmed Bedir</h1>
+            <h2>Video Editor & Content Creator</h2>
+            <p>أحول أفكارك إلى محتوى مرئي احترافي يجذب الجمهور ويحقق أهدافك</p>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="btn btn-primary">شاهد أعمالي</a>
+                <a href="#contact" class="btn btn-secondary">تواصل معي</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <h2 class="section-title">مهاراتي</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <span class="skill-icon">🎬</span>
+                <div class="skill-name">Video Editing & Storytelling</div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 100%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <span class="skill-icon">🎨</span>
+                <div class="skill-name">Color Correction & Grading</div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <span class="skill-icon">✨</span>
+                <div class="skill-name">Transitions & Effects</div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <span class="skill-icon">🎵</span>
+                <div class="skill-name">Audio Sync & Cleanup</div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <span class="skill-icon">📱</span>
+                <div class="skill-name">YouTube, Reels, Shorts</div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 100%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <span class="skill-icon">⚡</span>
+                <div class="skill-name">Adobe Premiere Pro</div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section" id="portfolio">
+        <h2 class="section-title">أعمالي</h2>
+        <div class="portfolio-grid">
+            <!-- YouTube Video 1 -->
+            <a href="https://youtu.be/EU5_JIFjXpg" target="_blank" class="portfolio-item portfolio-link">
+                <div class="portfolio-thumbnail" style="background-image: url('https://img.youtube.com/vi/EU5_JIFjXpg/maxresdefault.jpg'); background-size: cover; background-position: center;">
+                    <div class="play-button">▶️</div>
+                    <div class="platform-badge">🎬 YouTube</div>
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <h3>🎬 YouTube Video</h3>
+                        <p>محتوى احترافي - اضغط للمشاهدة</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- YouTube Video 2 -->
+            <a href="https://youtu.be/JTaV4H8rUDI" target="_blank" class="portfolio-item portfolio-link">
+                <div class="portfolio-thumbnail" style="background-image: url('https://img.youtube.com/vi/JTaV4H8rUDI/maxresdefault.jpg'); background-size: cover; background-position: center;">
+                    <div class="play-button">▶️</div>
+                    <div class="platform-badge">🎬 YouTube</div>
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <h3>🎬 YouTube Video</h3>
+                        <p>مونتاج احترافي - اضغط للمشاهدة</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Instagram Reel 1 -->
+            <a href="https://www.instagram.com/reel/C3NxCFlNeQa/" target="_blank" class="portfolio-item portfolio-link">
+                <div class="portfolio-thumbnail instagram-gradient">
+                    <div class="play-button">▶️</div>
+                    <div class="platform-badge">📷 Instagram</div>
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <h3>📱 Instagram Reel</h3>
+                        <p>محتوى تفاعلي - اضغط للمشاهدة</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Instagram Reel 2 -->
+            <a href="https://www.instagram.com/reel/C2JGjGLovJy/" target="_blank" class="portfolio-item portfolio-link">
+                <div class="portfolio-thumbnail instagram-gradient">
+                    <div class="play-button">▶️</div>
+                    <div class="platform-badge">📷 Instagram</div>
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <h3>📱 Instagram Reel</h3>
+                        <p>Short-form Content - اضغط للمشاهدة</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Instagram Reel 3 -->
+            <a href="https://www.instagram.com/reel/C3da57HrU5I/" target="_blank" class="portfolio-item portfolio-link">
+                <div class="portfolio-thumbnail instagram-gradient">
+                    <div class="play-button">▶️</div>
+                    <div class="platform-badge">📷 Instagram</div>
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <h3>📱 Instagram Reel</h3>
+                        <p>إبداع بصري - اضغط للمشاهدة</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-content">
+            <h2 class="section-title">تواصل معي</h2>
+            <p style="font-size: 20px; color: var(--gray); margin-bottom: 20px;">
+                جاهز لتحويل أفكارك إلى محتوى مرئي مميز
+            </p>
+            
+            <div class="social-links">
+                <a href="https://www.youtube.com/@-ENG.AHMED-BADORY" target="_blank" class="social-link" title="YouTube">▶️</a>
+                <a href="https://www.instagram.com/a.bin_badr" target="_blank" class="social-link" title="Instagram">📷</a>
+                <a href="https://eg.linkedin.com/in/ahmedbedeer/en" target="_blank" class="social-link" title="LinkedIn">💼</a>
+                <a href="tel:01090781239" class="social-link" title="Phone">📞</a>
+                <a href="mailto:ahmedbedeer45@gmail.com" class="social-link" title="Email">✉️</a>
+            </div>
+
+            <div class="contact-info">
+                <p><strong>📍 الموقع:</strong> كفر الشيخ، مصر</p>
+                <p><strong>📱 الهاتف:</strong> <a href="tel:01090781239">01090781239</a></p>
+                <p><strong>✉️ الإيميل:</strong> <a href="mailto:ahmedbedeer45@gmail.com">ahmedbedeer45@gmail.com</a></p>
+                <p><strong>💼 الخبرة:</strong> Video Editor @ National Telecommunication Institute (NTI)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Ahmed Bedir. جميع الحقوق محفوظة.</p>
+        <p style="margin-top: 10px; color: var(--gray);">Crafted with passion for visual storytelling 🎬</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
